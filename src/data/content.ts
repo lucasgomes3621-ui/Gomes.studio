@@ -65,16 +65,18 @@ export const PROJECTS_DATA: ProjectItem[] = [
   {
     id: 'proximo-projeto',
     number: '#03',
-    title: 'SEU PRÓXIMO PROJETO',
-    category: 'SOB MEDIDA / TAILORED',
-    description: 'Soluções digitais exclusivas desenvolvidas meticulosamente de acordo com o objetivo e nicho de cada negócio.',
-    imageSrc: '/assets/projects/custom-dashboard.svg',
-    relativeImagePath: 'assets/projects/custom-dashboard.svg',
-    tags: ['Custom UI', 'Full Responsive', 'Estratégia'],
-    ctaLabel: 'CRIAR MEU PROJETO',
-    href: '#contato?servico=projeto-sob-medida',
-    clientType: 'Empresas Visionárias',
-    highlightText: 'Custom Dashboard & Web App'
+    title: 'BRIEFING DO SEU PROJETO',
+    category: 'DIAGNÓSTICO / SOB MEDIDA',
+    description: 'Inicie seu projeto exclusivo. Acesse nosso formulário de briefing interativo para mapearmos seus objetivos e desenharmos a solução digital ideal para sua marca.',
+    imageSrc: 'assets/projects/briefing-gomes-studio.png',
+    relativeImagePath: 'assets/projects/briefing-gomes-studio.png',
+    tags: ['Briefing Interativo', 'Diagnóstico Estratégico', 'Sob Medida', 'Online'],
+    ctaLabel: 'PREENCHER BRIEFING',
+    href: 'https://lucasgomes3621-ui.github.io/Gomes-Studio-/',
+    liveUrl: 'https://lucasgomes3621-ui.github.io/Gomes-Studio-/',
+    isExternal: true,
+    clientType: 'Novos Parceiros & Empresas',
+    highlightText: 'Briefing Oficial Online'
   }
 ];
 
